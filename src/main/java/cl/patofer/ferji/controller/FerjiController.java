@@ -8,7 +8,8 @@ public class FerjiController {
 
     @RequestMapping(value = "hello",method = RequestMethod.GET)
     public String helloWorld(@RequestParam String var){
-        return "Hello world " + var;
+
+        return "Hello world --> " + var;
     }
 
 }
